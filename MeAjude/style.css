@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    overflow-x: hidden; 
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+strong{
+    color: #C7670E;
+}
+
+.cabecalho_pai{
+    background-color: #C7670E;
+    position: fixed;
+    width: 200vh;
+}
+
+
+.cabecalho {
+    padding: 22px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 6%;
+}
+
+.cadastro_botao{
+    padding: 12px;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #C7670E;
+}
+
+.atalhos{
+    color: #FFFFFF;
+    display: flex;
+    gap: 100px;
+}
+
+.cadastro {
+    padding: 0% 15%;
+}
+
+.texto_principal{
+    font-size: 400%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.texto_secundario{
+    font-size: 20px;
+}
+
+.conteudo{
+    margin: 0 8%;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_sessao{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.conteudo_botao{
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #C7670E;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.banner{
+    width: 90vh;
+    height: auto;
+    
+}
+
+.divisao{
+    position: absolute;
+    top: 74vh;
+    width: 200vh;
+    height: 100vh;
+    background-color: #C7670E;
+    z-index: -1;
+    color: #C7670E;
+}
+    
